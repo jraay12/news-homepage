@@ -1,7 +1,12 @@
+import Header from "./Components/Header";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <main className="min-h-screen container mx-auto border-2 border-black">
+      <Header />
+      <section className="flex">
+        <img src="" />
+      </section>
+    </main>
+  );
 }
